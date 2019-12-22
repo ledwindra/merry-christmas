@@ -1,6 +1,6 @@
 # About
 
-Ho ho ho (:santa:)! Welcome to my repository! Here, we will create a simple program that produces a Christmas wish :christmas_tree:. I hope you enjoy this, ho ho ho!
+Ho ho ho :santa:! Welcome to my repository! Here, we will create a simple program that produces a Christmas wish :christmas_tree:. I hope you enjoy this, ho ho ho!
 
 # Clone
 
@@ -16,14 +16,22 @@ Simple, right? Ho ho ho :santa:!
 
 # Run the Script
 
-The script will produce texts which consist of a Christmas tree and the sentences. For the tree, it needs a function that produces a triangle. The first argument is needed to produce the height of the triangle. Note that the triangle is composed of a list of odd numbers, which finally resembles a Christmas tree. The second and third arguments could be any texts, which will produce the end of the program. Now, let's ask :santa: to run the :snake: program, shall we? :smile:
+Run the following command on your terminal:
 
 ```
-python3 src/merry_christmas.py 15 Enjoy Santa
+python3 src/merry_christmas.py [TRIANGLE_HEIGHT] [END_WISH] [YOUR_NAME]
 ```
 
-[![video](https://i9.ytimg.com/vi/nGajXXZlmPg/mq3.jpg?sqp=CKf3_u8F&rs=AOn4CLAV16UZzXIR0V_KOK79Gqr7FOOD4g)](https://youtu.be/nGajXXZlmPg)
+Explanation: 
 
-Simple, right? Thank you for reading. Ho ho ho!
+* `TRIANGLE_HEIGHT` is needed to produce the Christmas tree. It will produce a list of odd numbers up until your imputed number. For example, if you type 18, it will produce `1, 3, 5, ..., 17`.
 
+* `END_WISH` will produce the closure of the text. For example `Enjoy`, or `Sincerely`. Note if you want to add more than one word and it has whitespace between the words, then you'll need `\` before the space, for example `Yours\n truly`.
 
+* `YOUR_NAME` will produce a text that represents a name that you want to input. For example, `Santa`, or `Santa\n the\n Coder`
+
+# Demo
+
+![merry-christmas](img/merry-christmas-code.gif)
+
+Thank you for reading. Ho ho ho :santa::christmas_tree:!
