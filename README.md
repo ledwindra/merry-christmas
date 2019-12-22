@@ -16,7 +16,7 @@ Simple, right? Ho ho ho :santa:!
 
 # Run
 
-Then, you can the :snake: script on your :laptop::
+Then, you (perhaps with your :family:) can run the :snake: script on your :computer::
 
 ```
 python3 src/merry_christmas.py [TRIANGLE_HEIGHT] [END_WISH] [YOUR_NAME]
