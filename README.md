@@ -1,10 +1,10 @@
 # About
 
-Ho ho ho :santa:! Welcome to my repository! Here, we will create a simple program that produces a Christmas wish :christmas_tree:. I hope you enjoy this, ho ho ho!
+Ho ho ho :santa:! Welcome to my repository! Here, we will create a simple program that produces a Christmas wish :christmas_tree:. I hope you enjoy this. :smile:
 
 # Clone
 
-If you want to do this on your machine, clone this repository by running the following command on your terminal:
+If you want to do this on your machine, run the following command on your terminal:
 
 ```
 cd ~
@@ -14,9 +14,9 @@ cd ./merry-christmas
 
 Simple, right? Ho ho ho :santa:!
 
-# Run the Script
+# Run
 
-Run the following command on your terminal:
+Then, you can the :snake: script on your :laptop::
 
 ```
 python3 src/merry_christmas.py [TRIANGLE_HEIGHT] [END_WISH] [YOUR_NAME]
@@ -24,11 +24,11 @@ python3 src/merry_christmas.py [TRIANGLE_HEIGHT] [END_WISH] [YOUR_NAME]
 
 Explanation: 
 
-* `TRIANGLE_HEIGHT` is needed to produce the Christmas tree. It will produce a list of odd numbers up until your imputed number. For example, if you type 18, it will produce `1, 3, 5, ..., 17`.
+* `TRIANGLE_HEIGHT` :small_red_triangle: is needed to produce the Christmas tree. It will produce a list of odd numbers up until your imputed number. For example, if you type 18, it will produce `1, 3, 5, ..., 17`.
 
-* `END_WISH` will produce the closure of the text. For example `Enjoy`, or `Sincerely`. Note if you want to add more than one word and it has whitespace between the words, then you'll need `\` before the space, for example `Yours\n truly`.
+* `END_WISH` :pray: will produce the closure of the text. For example `Enjoy`, or `Sincerely`. Note if you want to add more than one word and it has whitespace between the words, then you'll need `\` before the space, for example `Yours\n truly`.
 
-* `YOUR_NAME` will produce a text that represents a name that you want to input. For example, `Santa`, or `Santa\n the\n Coder`
+* `YOUR_NAME` :raising_hand: will produce a text that represents a name that you want to input. For example, `Santa`, or `Santa\n the\n Coder`
 
 # Demo
 
