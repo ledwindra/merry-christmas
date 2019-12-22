@@ -16,7 +16,7 @@ Simple, right? Ho ho ho :santa:!
 
 # Run the Script
 
-The script will produce texts which consist of a Christmas tree and the sentences. For the tree, it needs a function that produces a triangle. The first argument is needed to produce the height of the triangle. Note that the triangle is composed of a list of odd numbers, which then is translated to `#`. The second and third arguments could be any texts, which will produce the end of the program. For example, ask :santa: to run the :snake: program?
+The script will produce texts which consist of a Christmas tree and the sentences. For the tree, it needs a function that produces a triangle. The first argument is needed to produce the height of the triangle. Note that the triangle is composed of a list of odd numbers, which then is translated to `#`. The second and third arguments could be any texts, which will produce the end of the program. Now, let's ask :santa: to run the :snake: program, shall we? :smile:
 
 ```
 python3 src/merry_christmas.py 15 Best\ regards Santa
