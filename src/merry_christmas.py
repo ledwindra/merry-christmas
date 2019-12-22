@@ -5,8 +5,9 @@ class MerryChristmas():
     def __init__(self):
         self.header = "\tMerry Christmas and Happy Holidays!"
         self.height = int(sys.argv[1])
-        self.name = sys.argv[2]
-        self.footer = "\tBest regards,\n\t" + self.name
+        self.end = sys.argv[2]
+        self.name = sys.argv[3]
+        self.footer = "\t{},\n\t{}".format(self.end, self.name)
     
     def get_triangle(self):
         "Returns a triangle"
