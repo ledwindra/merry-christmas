@@ -3,11 +3,12 @@ import sys
 class MerryChristmas():
 
     def __init__(self):
+        
         self.header = "\tMerry Christmas and Happy Holidays!"
         self.height = int(sys.argv[1])
         self.end = sys.argv[2]
         self.name = sys.argv[3]
-        self.footer = "\t{},\n\t{}".format(self.end, self.name)
+        self.footer = "\t{},\n\n\t{}".format(self.end, self.name)
     
     def get_triangle(self):
         "Returns a triangle"
@@ -17,7 +18,7 @@ class MerryChristmas():
 
         while i < self.height:
             if i % 2 != 0:
-                triangle.append('#' * i)
+                triangle.append('\U0001F384' * i)
             i += 1
 
         return triangle
