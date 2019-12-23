@@ -32,6 +32,6 @@ Explanation:
 
 # Demo
 
-![merry-christmas](utils/merry-christmas-code.gif)
+![merry-christmas](utils/merry-christmas.gif)
 
 Thank you for reading. Ho ho ho :santa::christmas_tree:!
