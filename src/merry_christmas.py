@@ -4,11 +4,13 @@ class MerryChristmas():
 
     def __init__(self):
         
-        self.header = "\tMerry Christmas and Happy Holidays!"
+        self.bold = "\033[1m"
+        self.unbold = "\033[0m"
+        self.header = f"\t{self.bold}Merry Christmas and Happy Holidays!{self.unbold}"
         self.height = int(sys.argv[1])
         self.end = sys.argv[2]
         self.name = sys.argv[3]
-        self.footer = "\t{},\n\n\t{}".format(self.end, self.name)
+        self.footer = f"\t{self.bold}{self.end},\n\n\t{self.name}{self.unbold}"
     
     def get_triangle(self):
         "Returns a triangle"

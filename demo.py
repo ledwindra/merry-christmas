@@ -11,7 +11,8 @@ def main():
     # please input your name
     # won't cause any error if you type anything else, though
     your_name = input(
-        SANTA\
+        "\n"
+        + SANTA\
         + " : Ho ho ho! Welcome! What's your name, buddy?\n\n"
     )
 
@@ -19,7 +20,7 @@ def main():
     want = input(
         "\n"\
         + SANTA \
-        + " : Hello, {}! So tell me, what do you want for a Christmas?\n\n"\
+        + " : Hello, {}! So tell me, what do you want for Christmas?\n\n"\
         .format(your_name)
     )
 
